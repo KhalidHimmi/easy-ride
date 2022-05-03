@@ -10,41 +10,9 @@ export class HomeoneBannerComponent implements OnInit {
     constructor() { }
 
     ngOnInit(): void {
-        this.resetOption = [this.options[0]];
+        
     }
 
-    mainBannerContent = [
-        {
-            title: 'Find Nearby',
-            paragraph: 'Expolore top-rated attractions, activities and more...',
-            popularSearchList: [
-                {
-                    title: 'Restaurants',
-                    link: 'grid-listings-left-sidebar'
-                },
-                {
-                    title: 'Events',
-                    link: 'grid-listings-left-sidebar'
-                },
-                {
-                    title: 'Clothing',
-                    link: 'grid-listings-left-sidebar'
-                },
-                {
-                    title: 'Bank',
-                    link: 'grid-listings-left-sidebar'
-                },
-                {
-                    title: 'Fitness',
-                    link: 'grid-listings-left-sidebar'
-                },
-                {
-                    title: 'Bookstore',
-                    link: 'grid-listings-left-sidebar'
-                }
-            ]
-        }
-    ]
 
     // Category Select
     singleSelect: any = [];
@@ -56,7 +24,7 @@ export class HomeoneBannerComponent implements OnInit {
         displayKey: "name",
         search: true
     };
-    options = [
+    /* options = [
         // Type here your category name
         {
             name: "Restaurants",
@@ -76,7 +44,7 @@ export class HomeoneBannerComponent implements OnInit {
         {
             name: "Bookstore",
         }
-    ];
+    ]; */
     searchChange($event) {
         console.log($event);
     }

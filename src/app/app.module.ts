@@ -35,25 +35,13 @@ import { PartnerComponent } from './components/common/partner/partner.component'
 import { TeamComponent } from './components/common/team/team.component';
 import { FunfactsComponent } from './components/common/funfacts/funfacts.component';
 import { HowItWorksPageComponent } from './components/pages/how-it-works-page/how-it-works-page.component';
-import { PricingComponent } from './components/pages/pricing/pricing.component';
-import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { FaqComponent } from './components/pages/faq/faq.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { FooterStyleTwoComponent } from './components/common/footer-style-two/footer-style-two.component';
-import { BlogGridComponent } from './components/pages/blog-grid/blog-grid.component';
-import { BlogRightSidebarComponent } from './components/pages/blog-right-sidebar/blog-right-sidebar.component';
-import { BlogDetailsComponent } from './components/pages/blog-details/blog-details.component';
-import { ProductsListComponent } from './components/pages/products-list/products-list.component';
-import { CartComponent } from './components/pages/cart/cart.component';
-import { CheckoutComponent } from './components/pages/checkout/checkout.component';
-import { ProductsDetailsComponent } from './components/pages/products-details/products-details.component';
-import { RelatedProductsComponent } from './components/pages/products-details/related-products/related-products.component';
 import { AuthorProfileComponent } from './components/pages/author-profile/author-profile.component';
 import { CategoriesComponent } from './components/pages/categories/categories.component';
 import { TopPlaceComponent } from './components/pages/top-place/top-place.component';
 import { ListingsDetailsComponent } from './components/pages/listings-details/listings-details.component';
-import { EventsDetailsComponent } from './components/pages/events-details/events-details.component';
-import { EventsComponent } from './components/pages/events/events.component';
 import { VerticalListingsLeftSidebarComponent } from './components/pages/vertical-listings-left-sidebar/vertical-listings-left-sidebar.component';
 import { VerticalListingsRightSidebarComponent } from './components/pages/vertical-listings-right-sidebar/vertical-listings-right-sidebar.component';
 import { VerticalListingsFullWidthComponent } from './components/pages/vertical-listings-full-width/vertical-listings-full-width.component';
@@ -66,14 +54,9 @@ import { DashboardSidemenuComponent } from './components/common/dashboard-sideme
 import { CopyrightsComponent } from './components/pages/dashboard/copyrights/copyrights.component';
 import { StatsComponent } from './components/pages/dashboard/stats/stats.component';
 import { RecentActivitiesComponent } from './components/pages/dashboard/recent-activities/recent-activities.component';
-import { DashboardMessagesComponent } from './components/pages/dashboard/dashboard-messages/dashboard-messages.component';
 import { DashboardBookingsComponent } from './components/pages/dashboard/dashboard-bookings/dashboard-bookings.component';
-import { DashboardWalletComponent } from './components/pages/dashboard/dashboard-wallet/dashboard-wallet.component';
-import { DashboardReviewsComponent } from './components/pages/dashboard/dashboard-reviews/dashboard-reviews.component';
-import { DashboardInvoiceComponent } from './components/pages/dashboard/dashboard-invoice/dashboard-invoice.component';
 import { DashboardMyProfileComponent } from './components/pages/dashboard/dashboard-my-profile/dashboard-my-profile.component';
 import { DashboardAddListingsComponent } from './components/pages/dashboard/dashboard-add-listings/dashboard-add-listings.component';
-import { DashboardBookmarksComponent } from './components/pages/dashboard/dashboard-bookmarks/dashboard-bookmarks.component';
 import { DashboardMyListingsComponent } from './components/pages/dashboard/dashboard-my-listings/dashboard-my-listings.component';
 
 @NgModule({
@@ -105,25 +88,13 @@ import { DashboardMyListingsComponent } from './components/pages/dashboard/dashb
     TeamComponent,
     FunfactsComponent,
     HowItWorksPageComponent,
-    PricingComponent,
-    GalleryComponent,
     FaqComponent,
     ContactComponent,
     FooterStyleTwoComponent,
-    BlogGridComponent,
-    BlogRightSidebarComponent,
-    BlogDetailsComponent,
-    ProductsListComponent,
-    CartComponent,
-    CheckoutComponent,
-    ProductsDetailsComponent,
-    RelatedProductsComponent,
     AuthorProfileComponent,
     CategoriesComponent,
     TopPlaceComponent,
     ListingsDetailsComponent,
-    EventsDetailsComponent,
-    EventsComponent,
     VerticalListingsLeftSidebarComponent,
     VerticalListingsRightSidebarComponent,
     VerticalListingsFullWidthComponent,
@@ -136,14 +107,9 @@ import { DashboardMyListingsComponent } from './components/pages/dashboard/dashb
     CopyrightsComponent,
     StatsComponent,
     RecentActivitiesComponent,
-    DashboardMessagesComponent,
     DashboardBookingsComponent,
-    DashboardWalletComponent,
-    DashboardReviewsComponent,
-    DashboardInvoiceComponent,
     DashboardMyProfileComponent,
     DashboardAddListingsComponent,
-    DashboardBookmarksComponent,
     DashboardMyListingsComponent
   ],
   imports: [

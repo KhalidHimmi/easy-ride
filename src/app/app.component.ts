@@ -16,6 +16,9 @@ declare let $: any;
     ]
 })
 export class AppComponent {
+    title(title: any) {
+      throw new Error('Method not implemented.');
+    }
     location: any;
     routerSubscription: any;
 

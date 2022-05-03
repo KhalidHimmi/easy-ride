@@ -21,22 +21,22 @@ export class FeaturesComponent implements OnInit {
     singleFeaturesBox = [
         {
             icon: 'flaticon-commerce',
-            title: 'Lunch Your Business',
-            paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+            title: 'Inscription gratuit',
+            paragraph: 'Conducteurs et passagers ne paient pas de frais d\'inscriptions ni d\'abonnement.',
             linkText: 'Get Start Now',
             link: 'contact'
         },
         {
             icon: 'flaticon-project',
-            title: 'Manage Your Business',
+            title: 'Covoiturage urban',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
             linkText: 'Get Start Now',
             link: 'contact'
         },
         {
             icon: 'flaticon-growth',
-            title: 'Grow Your Business',
-            paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+            title: 'Covoiturage interurbain',
+            paragraph: 'Publiez ou reservez un trajet.',
             linkText: 'Get Start Now',
             link: 'contact'
         }
